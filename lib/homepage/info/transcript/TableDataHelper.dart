@@ -1,0 +1,93 @@
+import 'TableColumns.dart';
+
+class TableDataHelper {
+  static List<TableColumns> kTableColumnsList = [
+    TableColumns(
+        schoolImg: 'assets/banner/Cornerstone.jpg',
+        title1: 1,
+        title2: 2,
+        title3: 3,
+        title4: 4,
+        title5: 5,
+        title6: 6,
+        title7: 7,
+        title8: 8,
+        title9: 9,
+        title10: 10,
+        title11: 11,
+        title12: 12),
+    TableColumns(
+        schoolImg: 'assets/banner/Metropolitan.jpg',
+        title1: 13,
+        title2: 14,
+        title3: 15,
+        title4: 16,
+        title5: 17,
+        title6: 18,
+        title7: 19,
+        title8: 20,
+        title9: 21,
+        title10: 22,
+        title11: 23,
+        title12: 24),
+    TableColumns(
+        schoolImg:  'assets/banner/Canada.jpg',
+        title1: 25,
+        title2: 26,
+        title3: 27,
+        title4: 28,
+        title5: 29,
+        title6: 30,
+        title7: 31,
+        title8: 32,
+        title9: 33,
+        title10: 34,
+        title11: 35,
+        title12: 36),
+    TableColumns(
+        schoolImg:  'assets/banner/Valeey.jpg',
+        title1: 37,
+        title2: 38,
+        title3: 39,
+        title4: 40,
+        title5: 41,
+        title6: 42,
+        title7: 43,
+        title8: 44,
+        title9: 45,
+        title10: 46,
+        title11: 47,
+        title12: 48),
+    TableColumns(
+        schoolImg:  'assets/banner/Sprott.jpg',
+        title1: 49,
+        title2: 50,
+        title3: 51,
+        title4: 52,
+        title5: 53,
+        title6: 54,
+        title7: 55,
+        title8: 56,
+        title9: 57,
+        title10: 58,
+        title11: 59,
+        title12: 60),
+  ];
+}
+
+class SchoolColumnHelper {
+  static final List<String> firstColumn = [
+    'Tiêu chuẩn chất lượng',
+    'Tiêu chuẩn dạy học',
+    'Tiêu chuẩn công bố bài báo cáo khoa học',
+    'Tiêu chuẩn chất lượng người học',
+    'Tiêu chuẩn cơ sở vật chất',
+    'Đánh giá 5 sao ( nghìn người )',
+    'Xếp hạng',
+    'Tiêu chuẩn nhiệm vụ khoa học và sáng chế',
+    'Điểm trung bình đầu vào',
+    'Tỉ lệ có công việc khi ra trường',
+    'Số giảng viên trên thạc sỉ',
+    'Tổng điểm'
+  ];
+}
